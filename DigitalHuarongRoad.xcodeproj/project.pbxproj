@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DB6F192E633FBBDAC1F9753 /* Pods_DigitalHuarongRoadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBA9A1A3F5F685E4B517611 /* Pods_DigitalHuarongRoadTests.framework */; };
+		88BE761A816FC903FFE45EC6 /* Pods_DigitalHuarongRoad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8B67AAB4229979647A4982 /* Pods_DigitalHuarongRoad.framework */; };
 		B27C58F02106B16F00A13E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C58EF2106B16F00A13E3A /* AppDelegate.swift */; };
-		B27C58F22106B16F00A13E3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C58F12106B16F00A13E3A /* ViewController.swift */; };
+		B27C58F22106B16F00A13E3A /* HR_RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C58F12106B16F00A13E3A /* HR_RootViewController.swift */; };
 		B27C58F52106B16F00A13E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27C58F32106B16F00A13E3A /* Main.storyboard */; };
 		B27C58F72106B17000A13E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27C58F62106B17000A13E3A /* Assets.xcassets */; };
 		B27C58FA2106B17000A13E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27C58F82106B17000A13E3A /* LaunchScreen.storyboard */; };
 		B27C59052106B17100A13E3A /* DigitalHuarongRoadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C59042106B17100A13E3A /* DigitalHuarongRoadTests.swift */; };
 		B27C59102106B17100A13E3A /* DigitalHuarongRoadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C590F2106B17100A13E3A /* DigitalHuarongRoadUITests.swift */; };
+		B27C591E2106B65800A13E3A /* HR_PlaygroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C591D2106B65800A13E3A /* HR_PlaygroundViewController.swift */; };
+		B27C59202106D21A00A13E3A /* HR_SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C591F2106D21A00A13E3A /* HR_SliderView.swift */; };
+		BE7FC923E4BF72D257001998 /* Pods_DigitalHuarongRoadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF4D0142EC4944A2E94948F /* Pods_DigitalHuarongRoadUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1472F074079616945122FE1B /* Pods-DigitalHuarongRoadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalHuarongRoadTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalHuarongRoadTests/Pods-DigitalHuarongRoadTests.release.xcconfig"; sourceTree = "<group>"; };
+		15530559E7D334E1839509D5 /* Pods-DigitalHuarongRoadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalHuarongRoadTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalHuarongRoadTests/Pods-DigitalHuarongRoadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		309ADD9FCB3A35123279AEBE /* Pods-DigitalHuarongRoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalHuarongRoad.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalHuarongRoad/Pods-DigitalHuarongRoad.release.xcconfig"; sourceTree = "<group>"; };
+		31A3A8B1B2A8523DA0DF7435 /* Pods-DigitalHuarongRoadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalHuarongRoadUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalHuarongRoadUITests/Pods-DigitalHuarongRoadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6CB2E5C3B86AED2CD25E964E /* Pods-DigitalHuarongRoadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalHuarongRoadUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalHuarongRoadUITests/Pods-DigitalHuarongRoadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EBA9A1A3F5F685E4B517611 /* Pods_DigitalHuarongRoadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalHuarongRoadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27C58EC2106B16F00A13E3A /* DigitalHuarongRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalHuarongRoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27C58EF2106B16F00A13E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B27C58F12106B16F00A13E3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B27C58F12106B16F00A13E3A /* HR_RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HR_RootViewController.swift; sourceTree = "<group>"; };
 		B27C58F42106B16F00A13E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B27C58F62106B17000A13E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B27C58F92106B17000A13E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		B27C590B2106B17100A13E3A /* DigitalHuarongRoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalHuarongRoadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27C590F2106B17100A13E3A /* DigitalHuarongRoadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalHuarongRoadUITests.swift; sourceTree = "<group>"; };
 		B27C59112106B17100A13E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27C591D2106B65800A13E3A /* HR_PlaygroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HR_PlaygroundViewController.swift; sourceTree = "<group>"; };
+		B27C591F2106D21A00A13E3A /* HR_SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HR_SliderView.swift; sourceTree = "<group>"; };
+		BC8B67AAB4229979647A4982 /* Pods_DigitalHuarongRoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalHuarongRoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC117CD2BACC5C7E075B6110 /* Pods-DigitalHuarongRoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalHuarongRoad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitalHuarongRoad/Pods-DigitalHuarongRoad.debug.xcconfig"; sourceTree = "<group>"; };
+		DDF4D0142EC4944A2E94948F /* Pods_DigitalHuarongRoadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalHuarongRoadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BE761A816FC903FFE45EC6 /* Pods_DigitalHuarongRoad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB6F192E633FBBDAC1F9753 /* Pods_DigitalHuarongRoadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7FC923E4BF72D257001998 /* Pods_DigitalHuarongRoadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570DF1BB3F3A04851CFE45A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC8B67AAB4229979647A4982 /* Pods_DigitalHuarongRoad.framework */,
+				6EBA9A1A3F5F685E4B517611 /* Pods_DigitalHuarongRoadTests.framework */,
+				DDF4D0142EC4944A2E94948F /* Pods_DigitalHuarongRoadUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B27C58E32106B16F00A13E3A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				B27C59032106B17100A13E3A /* DigitalHuarongRoadTests */,
 				B27C590E2106B17100A13E3A /* DigitalHuarongRoadUITests */,
 				B27C58ED2106B16F00A13E3A /* Products */,
+				F28EB16CE7DF2C88456A446B /* Pods */,
+				570DF1BB3F3A04851CFE45A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				B27C58EF2106B16F00A13E3A /* AppDelegate.swift */,
-				B27C58F12106B16F00A13E3A /* ViewController.swift */,
+				B27C58F12106B16F00A13E3A /* HR_RootViewController.swift */,
+				B27C591D2106B65800A13E3A /* HR_PlaygroundViewController.swift */,
+				B27C591F2106D21A00A13E3A /* HR_SliderView.swift */,
 				B27C58F32106B16F00A13E3A /* Main.storyboard */,
 				B27C58F62106B17000A13E3A /* Assets.xcassets */,
 				B27C58F82106B17000A13E3A /* LaunchScreen.storyboard */,
@@ -125,6 +158,19 @@
 			path = DigitalHuarongRoadUITests;
 			sourceTree = "<group>";
 		};
+		F28EB16CE7DF2C88456A446B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC117CD2BACC5C7E075B6110 /* Pods-DigitalHuarongRoad.debug.xcconfig */,
+				309ADD9FCB3A35123279AEBE /* Pods-DigitalHuarongRoad.release.xcconfig */,
+				15530559E7D334E1839509D5 /* Pods-DigitalHuarongRoadTests.debug.xcconfig */,
+				1472F074079616945122FE1B /* Pods-DigitalHuarongRoadTests.release.xcconfig */,
+				6CB2E5C3B86AED2CD25E964E /* Pods-DigitalHuarongRoadUITests.debug.xcconfig */,
+				31A3A8B1B2A8523DA0DF7435 /* Pods-DigitalHuarongRoadUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B27C59142106B17100A13E3A /* Build configuration list for PBXNativeTarget "DigitalHuarongRoad" */;
 			buildPhases = (
+				30EEB29CA5D71D2F39DF17B0 /* [CP] Check Pods Manifest.lock */,
 				B27C58E82106B16F00A13E3A /* Sources */,
 				B27C58E92106B16F00A13E3A /* Frameworks */,
 				B27C58EA2106B16F00A13E3A /* Resources */,
+				90ED300D02370D9C4D081228 /* [CP] Embed Pods Frameworks */,
+				0B12B92B6F867ECE40EF81AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B27C59172106B17100A13E3A /* Build configuration list for PBXNativeTarget "DigitalHuarongRoadTests" */;
 			buildPhases = (
+				DC96CE92C9E2AD552ADCCE21 /* [CP] Check Pods Manifest.lock */,
 				B27C58FC2106B17100A13E3A /* Sources */,
 				B27C58FD2106B17100A13E3A /* Frameworks */,
 				B27C58FE2106B17100A13E3A /* Resources */,
+				74A0F135F4238BA8A8513514 /* [CP] Embed Pods Frameworks */,
+				4E681F622F8FBAEB57EDBC88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B27C591A2106B17100A13E3A /* Build configuration list for PBXNativeTarget "DigitalHuarongRoadUITests" */;
 			buildPhases = (
+				A9DFD2310D9E72470B741909 /* [CP] Check Pods Manifest.lock */,
 				B27C59072106B17100A13E3A /* Sources */,
 				B27C59082106B17100A13E3A /* Frameworks */,
 				B27C59092106B17100A13E3A /* Resources */,
+				D00C462B1B62D8EF4DDABD2E /* [CP] Embed Pods Frameworks */,
+				79DC5CA803D47526B16CA133 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +306,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B12B92B6F867ECE40EF81AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalHuarongRoad/Pods-DigitalHuarongRoad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30EEB29CA5D71D2F39DF17B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalHuarongRoad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E681F622F8FBAEB57EDBC88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalHuarongRoadTests/Pods-DigitalHuarongRoadTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A0F135F4238BA8A8513514 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalHuarongRoadTests/Pods-DigitalHuarongRoadTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79DC5CA803D47526B16CA133 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalHuarongRoadUITests/Pods-DigitalHuarongRoadUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90ED300D02370D9C4D081228 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DigitalHuarongRoad/Pods-DigitalHuarongRoad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalHuarongRoad/Pods-DigitalHuarongRoad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9DFD2310D9E72470B741909 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalHuarongRoadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00C462B1B62D8EF4DDABD2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitalHuarongRoadUITests/Pods-DigitalHuarongRoadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC96CE92C9E2AD552ADCCE21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalHuarongRoadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B27C58E82106B16F00A13E3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B27C58F22106B16F00A13E3A /* ViewController.swift in Sources */,
+				B27C58F22106B16F00A13E3A /* HR_RootViewController.swift in Sources */,
+				B27C59202106D21A00A13E3A /* HR_SliderView.swift in Sources */,
 				B27C58F02106B16F00A13E3A /* AppDelegate.swift in Sources */,
+				B27C591E2106B65800A13E3A /* HR_PlaygroundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +635,13 @@
 		};
 		B27C59152106B17100A13E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC117CD2BACC5C7E075B6110 /* Pods-DigitalHuarongRoad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EF4GZN6YHJ;
 				INFOPLIST_FILE = DigitalHuarongRoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,17 +649,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fun.fangao.app.DigitalHuarongRoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B27C59162106B17100A13E3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309ADD9FCB3A35123279AEBE /* Pods-DigitalHuarongRoad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EF4GZN6YHJ;
 				INFOPLIST_FILE = DigitalHuarongRoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,12 +669,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fun.fangao.app.DigitalHuarongRoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B27C59182106B17100A13E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15530559E7D334E1839509D5 /* Pods-DigitalHuarongRoadTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +697,7 @@
 		};
 		B27C59192106B17100A13E3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1472F074079616945122FE1B /* Pods-DigitalHuarongRoadTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +719,7 @@
 		};
 		B27C591B2106B17100A13E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB2E5C3B86AED2CD25E964E /* Pods-DigitalHuarongRoadUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +740,7 @@
 		};
 		B27C591C2106B17100A13E3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A3A8B1B2A8523DA0DF7435 /* Pods-DigitalHuarongRoadUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
