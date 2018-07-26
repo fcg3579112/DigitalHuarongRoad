@@ -13,6 +13,7 @@ class HR_PlaygroundViewController: UIViewController {
     var itemDictionary = [String:HR_SliderView]()
     var itemWidth: Int!
     var emptyBlock: HR_SliderView!
+    let gap = 8
     
     
     
@@ -20,7 +21,7 @@ class HR_PlaygroundViewController: UIViewController {
     @IBOutlet weak var containerView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        itemWidth = (Int(view.frame.size.width) - 8) / row
+        itemWidth = (Int(view.frame.size.width) - gap) / row
         containerView.snp.makeConstraints { (make) in
             make.width.height.equalTo(Float(itemWidth) * Float(row))
             make.center.equalTo(view)
@@ -34,10 +35,6 @@ class HR_PlaygroundViewController: UIViewController {
             containerView.addSubview(item)
             let key = String(item.coordinate.x) + "_" + String(item.coordinate.y)
             itemDictionary[key] = item
-            let tap = UITapGestureRecognizer.init(target: self, action: #selector(tapGusture(gesture:)))
-            item.addGestureRecognizer(tap)
-            let swipe = UISwipeGestureRecognizer.init(target: self, action: #selector(swipeGesutre(gesture:)))
-            item.addGestureRecognizer(swipe)
             if index == row * row {
                 item.alpha = 0
                 emptyBlock = item;
@@ -54,19 +51,6 @@ class HR_PlaygroundViewController: UIViewController {
             let key = String(index % row) + "_" + String(index / row)
             let item = itemDictionary[key]!
             moveEmptyBlock(item)
-        }
-    }
-    @objc func swipeGesutre(gesture: UISwipeGestureRecognizer) {
-        handleGusture(gesture: gesture)
-    }
-    @objc func tapGusture(gesture: UITapGestureRecognizer) {
-        handleGusture(gesture: gesture)
-    }
-    func handleGusture(gesture: UIGestureRecognizer) {
-        let item = gesture.view as! HR_SliderView
-        if item != emptyBlock {
-            moveEmptyBlock(item)
-            checkisSuccessed()
         }
     }
     func findItemWithCoordinate(cor: Coordinate) -> HR_SliderView {
@@ -140,6 +124,15 @@ class HR_PlaygroundViewController: UIViewController {
             if successed {
                 print("恭喜你成功了")
             }
+        }
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?){
+        for touch in touches {
+            if let item = touch.view as? HR_SliderView {
+                moveEmptyBlock(item)
+                checkisSuccessed()
+            }
+            break
         }
     }
     override func didReceiveMemoryWarning() {
